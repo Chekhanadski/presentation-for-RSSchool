@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" />
+    <link rel="stylesheet" href="css/presentation.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>ORIGINS OF</h1>
+          <h2>WWW/HTML/CSS and AJAX/SPA</h2>
+          <div class="block-logos">
+            <img src="img/www.png" />
+            <img src="img/html.png" />
+            <img src="img/css.png" />
+            <img src="img/AJAX.png" />
+            <img src="img/SAP.png" />
+          </div>
+        </section>
+        <section class="slide-www">
+          <div class="block-www">
+            <div class="block-www-content">
+              <h3>WORLD WIDE WEB</h3>
+              <p class="text">
+                In 1989, Tim Berners-Lee invented the World Wide Web (WWW).
+              </p>
+            </div>
+            <img src="img/Sir_Tim_Berners-Lee_(cropped).jpg" />
+          </div>
+          <div class="block-www-example-content">
+            <img src="img/new-Screenshot-World-Wide-Web-project.png" />
+            <div class="block-www-example-text">
+              <h3 class="header-www">EXAMPLE</h3>
+              <p class="text">
+                The first website ever was info.cern.ch, which had information
+                about the World Wide Web Project. It came out in 1991. This was
+                the first time people used the WWW.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="block-html-css">
+            <h3>HTML & CSS</h3>
+            <p class="text">
+              HTML was made to structure web pages using tags. But they looked
+              pretty basic until CSS came along in 1996. With CSS, developers
+              could make web pages look better by adding colors, fronts, and
+              layouts.
+            </p>
+          </div>
+          <img class="block-html-css-img" src="img/with_and_without_css.jpg" />
+        </section>
+        <section>
+          <div class="block-ajax">
+            <div class="block-ajax-img">
+              <img src="img/ajax-operation.jpg" />
+            </div>
+            <div class="block-ajax-content">
+              <h3>FACT ABOUT AJAX</h3>
+              <p class="text">
+                The term AJAX was first publicly used in 2005 by Jesse James
+                Garrett. However, in one form or another, many of these
+                technologies were available and used as early as 1996.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="block-spa">
+            <div class="block-spa-content">
+              <h3>SINGLE PAGE APPLICATION</h3>
+              <p class="text">
+                Instead of loading a new page from the server every time you
+                click on something, SPAs load once and then update the content
+                dynamically as needed.
+              </p>
+            </div>
+            <img
+              class="block-spa-img"
+              src="img/How-does-Single-Page-Application-Works.jpg"
+            />
+          </div>
+        </section>
+        <section>
+          <div class="block-conclusion">
+            <div class="block-conclusion-content">
+              <h3>CONCLUSION</h3>
+              <p class="text">
+                HTML, CSS, Ajax, and SPA technologies have shaped our usage of
+                the internet today, making it more interactive and
+                user-friendly. Understanding this history helps us appreciate
+                the incredible progress we have made and inspires us to continue
+                pushing the boundaries.
+              </p>
+            </div>
+            <img class="block-conclusion-img" src="img/1555765865_888.jpg" />
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>

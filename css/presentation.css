@@ -1,0 +1,133 @@
+.block-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 140px;
+  margin-top: 100px;
+}
+
+.slide-www {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-www {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 312px;
+}
+
+.block-www-content {
+  margin-right: -20px;
+  width: 500px;
+  height: 220px;
+  text-align: left;
+  background-color: #f2ede8;
+  z-index: 1;
+}
+
+.text {
+  font-size: 25px;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+
+h3 {
+  padding: 20px 20px 0px 20px;
+}
+
+.block-www-example-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 400px;
+}
+
+.block-www-example-text {
+  margin-left: -20px;
+  width: 700px;
+  height: 271px;
+  background-color: #f2ede8;
+}
+
+.slide-html-css {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.block-html-css {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom: -40px;
+  background-color: #f2ede8;
+}
+
+.block-html-css-img {
+  height: 466px;
+}
+
+.block-ajax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-ajax-img {
+  height: 700px;
+}
+
+.block-ajax-content {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 550px;
+  height: 331px;
+  background-color: #f2ede8;
+}
+
+.block-spa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-spa-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 1000px;
+  height: 250px;
+  background-color: #f2ede8;
+}
+
+.block-spa-img {
+  height: 380px;
+}
+
+.block-conclusion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-conclusion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: -20px;
+  width: 1000px;
+  height: 300px;
+  background-color: #f2ede8;
+}
+
+.block-conclusion-img {
+  height: 380px;
+}
